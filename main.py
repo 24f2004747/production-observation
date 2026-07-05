@@ -29,7 +29,7 @@ async def logging_middleware(request: Request, call_next):
 def work(n:int=1):
     for _ in range(n):
         pass
-    return {"email":"YOUR_EMAIL_HERE","done":n}
+    return {"email":"24f2004747@ds.study.iitm.ac.in","done":n}
 
 @app.get("/healthz")
 def healthz():
